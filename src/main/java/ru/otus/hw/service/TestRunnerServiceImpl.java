@@ -1,7 +1,9 @@
 package ru.otus.hw.service;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.context.annotation.Configuration;
 
+@Configuration
 @RequiredArgsConstructor
 public class TestRunnerServiceImpl implements TestRunnerService {
 
